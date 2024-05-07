@@ -1,8 +1,31 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# NextDragger
 
-## Getting Started
+基于 Next.js 构建的 Demo，核心展示了在 web 上对图片进行缩放、拖拽的能力
 
-First, run the development server:
+## 需求
+
+1 对应移动端和pc端
+2 header和footer要固定位置
+3 框里的图片要可以拖动和放大缩小
+4 description的字数超出范围的时候要要可以scroll
+5 使用 tailwind css
+
+## 使用技术
+
+Next.js ( AppRouter) - 核心框架
+[https://nextjs.org/](https://nextjs.org/)
+TailwindCss - 样式库
+[https://tailwindcss.com/](https://tailwindcss.com/)
+react-dragggable - 拖拽库
+[https://www.npmjs.com/package/react-draggable](https://www.npmjs.com/package/react-draggable)
+react-zoom-pan-pinch - 缩放库
+[https://www.npmjs.com/package/react-zoom-pan-pinch](https://www.npmjs.com/package/react-zoom-pan-pinch)
+
+## 代码格式化
+
+airbnb 规则 + prettier + editorconfig
+
+## 运行
 
 ```bash
 npm run dev
@@ -13,24 +36,3 @@ pnpm dev
 # or
 bun dev
 ```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
