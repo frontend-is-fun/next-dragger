@@ -5,6 +5,7 @@ export interface FooterButtonProps {
   onClick: () => void;
 }
 
+// 菜单按钮的配置，这里暂时没有实际事件
 const footerButtons = [
   {
     title: 'Home',

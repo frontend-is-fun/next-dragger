@@ -10,6 +10,7 @@ export interface ImageFrameProps {
   imgUrl: string;
 }
 
+// draggable 是拖拽组件，外面用transform组件包裹实现对整个组件的缩放
 const ImageFrame = (props: ImageFrameProps) => {
   const { imgUrl } = props;
   return (
