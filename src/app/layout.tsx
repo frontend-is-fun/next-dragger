@@ -22,6 +22,7 @@ export default function RootLayout({
       <body className={inter.className}>
         <div className='flex w-screen min-h-screen flex-col items-center justify-start overflow-x-hidden'>
           {children}
+          {/* footer 因为使用了fixed 定位，会不受父容器宽度限制，不放在 children 里 */}
           <Footer />
         </div>
       </body>
